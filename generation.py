@@ -1,14 +1,10 @@
 import game_data as gd
 import random as r
-#generate new planet
 
 #generate new npc
 
-#generate new city
-
 #certain creatures live on certain planets
 
-#set up random node generator for planets and cities
 def city_generate():
     city = gd.City(gd.city_names[r.randrange(0,len(gd.city_names))],0,[])
     return city

@@ -3,6 +3,12 @@ universal_stats = {
     "strength": 0,
 }
 
+universal_equipment = {
+    "head": "",
+    "torso": "",
+    "legs": ""
+}
+
 universal_resources = {
     "fuel": 0,
     "metal": 0,
@@ -17,18 +23,18 @@ class Faction:
         self.territory = territory
 
 class NPC:
-    def __init__(self, appearance, equipment, race, job, faction, stats, money, hp, hp_max, attack, defense):
+    def __init__(self, appearance, race, job, faction, money):
         self.appearance = appearance
-        self.equipment = equipment
+        self.equipment = universal_equipment #changed later
         self.race = race
         self.job = job
         self.faction = faction
-        self.stats = stats
+        self.stats = universal_stats #changed later
         self.money = money
-        self.hp = hp
-        self.hp_max = hp_max
-        self.attack = attack
-        self.defense = defense
+        self.hp = 100 #changed later
+        self.hp_max = 100 #changed later
+        self.attack = 5 #changed later
+        self.defense = 5 #changed later
 
 class Race:
     def __init__(self, name, stats):
@@ -117,7 +123,7 @@ class Weapon:
 
 #RACES - Orks, Kobolds, Humans, Light Elves, Dark Elves, Ascended, Shark race, Frogfolk, Elder Gods, 
 
-#JOBS - smuggler, popstar, space pirate, slaver, trader, bounty hunter, dancer, psion, archaeologist, farmer, slave, doctor, noble, cultist, inquisitor, soldier, diplomat, 
+#JOBS - smuggler, popstar, space pirate, slaver, trader, bounty hunter, dancer, psion, archaeologist, farmer, slave, doctor, noble, cultist, inquisitor, soldier, diplomat, corporate executive
 
 #SHIPS - cargoship, gunship, starfighter, cruiser, destroyer, dreadnought
 
