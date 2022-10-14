@@ -41,17 +41,19 @@ class Job:
         self.stats = stats
 
 class Planet:
-    def __init__(self, name, id, type, size, capital):
+    def __init__(self, name, id, type, size, capital, nodes):
         self.name = name
         self.id = id
         self.type = type
         self.size = size
         self.capital = capital
+        self.nodes = nodes
 
 class City:
-    def __init__(self, name, population):
+    def __init__(self, name, population, nodes):
         self.name = name
         self.population = population
+        self.nodes = nodes
 
 class Ship:
     def __init__(self, name, pop_capacity, cargo_capacity, attack, defense):
