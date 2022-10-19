@@ -16,11 +16,12 @@ universal_resources = {
 
 
 class Faction:
-    def __init__(self, name, resources, army, territory):
+    def __init__(self, name, resources, army, territory, focus):
         self.name = name
         self.resources = resources
         self.army = army
         self.territory = territory
+        self.focus = focus
 
 class NPC:
     def __init__(self, appearance, race, job, faction, money):
@@ -29,7 +30,10 @@ class NPC:
         self.race = race
         self.job = job
         self.faction = faction
-        self.stats = universal_stats #changed later
+        self.stats = universal_stats 
+        self.stats[race.focus] += 1
+        self.stats[job.focus] += 1
+        self.stats[faction.focus] += 1
         self.money = money
         self.hp = 100 #changed later
         self.hp_max = 100 #changed later
@@ -37,14 +41,14 @@ class NPC:
         self.defense = 5 #changed later
 
 class Race:
-    def __init__(self, name, stats):
+    def __init__(self, name, focus):
         self.name = name
-        self.stats = stats
+        self.focus = focus
 
 class Job:
-    def __init__(self, name, stats):
+    def __init__(self, name, focus):
         self.name = name
-        self.stats = stats
+        self.focus = focus
 
 class Planet:
     def __init__(self, name, id, type, size, capital, nodes):
