@@ -1,6 +1,8 @@
 
 universal_stats = {
     "strength": 0,
+    "endurance":0,
+    "mechanics": 0, 
 }
 
 universal_equipment = {
@@ -127,7 +129,7 @@ class Weapon:
 
 #RACES - Orks, Kobolds, Humans, Light Elves, Dark Elves, Ascended, Shark race, Frogfolk, Elder Gods, 
 
-#JOBS - smuggler, popstar, space pirate, slaver, trader, bounty hunter, dancer, psion, archaeologist, farmer, slave, doctor, noble, cultist, inquisitor, soldier, diplomat, corporate executive
+#JOBS - skill trainer, smuggler, popstar, space pirate, slaver, trader, bounty hunter, dancer, psion, archaeologist, farmer, slave, doctor, noble, cultist, cosmic inquisitor, cosmic paladin, soldier, diplomat, corporate executive
 
 #SHIPS - cargoship, gunship, starfighter, cruiser, destroyer, dreadnought
 
@@ -141,30 +143,30 @@ class Weapon:
 
 #EQUIPMENT, HEAD - 
 
-#EQUIPMENT, TORSO - studded leather corset, leather coat, 
+#EQUIPMENT, TORSO - plain t-shirt, studded leather corset, leather coat, 
 
 #EQUIPMENT, LEGS - 
 
 #WEAPON, PISTOL - 
 
-#WEAPON, RIFLE - Gatling Gun, 
+#WEAPON, RIFLE - scoped sniper rifle, Gatling Gun, 
 
 #WEAPON, EXPLOSIVE - 
 
-#WEAPON, BLADE - 
+#WEAPON, BLADE - axe, 
 
 #WEAPON, BLUNT - 
 
 
-npc_names = ["Jade", "Rondo", "Phaidon", "Xaphura", "Sigmar", "Nagash", "Orok", "Caradura", "Meanne", "Bolas", "Seymour", "Karn", "Chalm", "Tartan", "Goyd", "Strolk", "Baal","Gamon", "Nataranja", "Khaine", "Shrike", "Commissar","Slaanesh", "Lizer", "Kensai", "Tanya", "Reesus", "Kane", "Erika", "Gonk", "Gomesh", "Charly", "Tichon", "Quinn", "Lei", "Fitz", "Virginia", "Olgrim", "Yung", "Menphala", "Strife", "Tevorian", "Quellis", "Dagon", "Alp", "Salvo Kar", "Gupa", "Adraan", "Aelric", "Krigi", "Ophelia", "Flynn", "Therani", "Velvet", "Senrae", "Luka", "Brico"]
+npc_names = ["Castillo", "Fatima", "Deidranna", "Maya", "Enroth", "Jade", "Rondo", "Phaidon", "Xaphura", "Sigmar", "Nagash", "Orok", "Caradura", "Meanne", "Bolas", "Seymour", "Karn", "Chalm", "Tartan", "Goyd", "Strolk", "Baal","Gamon", "Nataranja", "Khaine", "Shrike", "Commissar","Slaanesh", "Lizer", "Kensai", "Tanya", "Reesus", "Kane", "Erika", "Gonk", "Gomesh", "Charly", "Tichon", "Quinn", "Lei", "Fitz", "Virginia", "Olgrim", "Yung", "Menphala", "Strife", "Tevorian", "Quellis", "Dagon", "Alp", "Salvo Kar", "Gupa", "Adraan", "Aelric", "Krigi", "Ophelia", "Flynn", "Therani", "Velvet", "Senrae", "Luka", "Brico"]
 
-planet_names = ["Alpharius", "Primaris", "Archaon", "Caledor", "Coda", "Hereticus", "Fatalis", "Anbennar", "Nobilis", "Polaris", "Earth", "Ishtar", "Data", "Leviathan", "Aldanis", "Scylla", "Volytis", "Destiny", "Dei", "Goerica", "Sumeria", "Mako", "Numera"]
+planet_names = ["Septerra", "Alpharius", "Primaris", "Archaon", "Caledor", "Coda", "Hereticus", "Fatalis", "Anbennar", "Nobilis", "Polaris", "Earth", "Ishtar", "Data", "Leviathan", "Aldanis", "Scylla", "Volytis", "Destiny", "Dei", "Goerica", "Sumeria", "Mako", "Numera"]
 planet_types = ["volcanic", "acidic", "oceanic", "tropical", "desert", "gas", "astral", "umbral"]
 planet_sizes = ["small", "medium", "large"]
 
 
-city_names = ["Britannia", "Hal Kuron", "Bala Ged", "Irvine", "Catalan", "Lustria", "Habsburg", "Ostermalm", "Blackfire Pass", "Necropolis", "Ravenloft", "Nibelheim", "Magnus", "Ur-Turuk", "Mythros", "Toan", "Shangri-La", "Verden", "Scion"]
+city_names = ["Drassen", "Omerta", "White Cap", "Sorpigal", "Britannia", "Hal Kuron", "Bala Ged", "Irvine", "Catalan", "Lustria", "Habsburg", "Ostermalm", "Blackfire Pass", "Necropolis", "Ravenloft", "Nibelheim", "Magnus", "Ur-Turuk", "Mythros", "Toan", "Shangri-La", "Verden", "Scion"]
 
-satellite_names = ["Seraphim", "Delta Green", "Anima Prime", "Heliotrope", "Ymir", "Battlestar"]
+satellite_names = ["Sal Mona", "Anachronox", "Seraphim", "Delta Green", "Anima Prime", "Heliotrope", "Ymir", "Battlestar"]
 
-ship_names = ["Vindictus", "Starbrand", "Deathwing", "The Whirlwind", "Fear Incarnate", "The Tempest", "The Black Sun", "The Astral God", "Death on High"]
+ship_names = ["Armageddon", "Saint Kansas", "Mandate of Heaven", "Vindictus", "Starbrand", "Deathwing", "The Whirlwind", "Fear Incarnate", "The Tempest", "The Black Sun", "The Astral God", "Death on High"]
