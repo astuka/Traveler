@@ -157,7 +157,7 @@ class Weapon:
 
 #WEAPON, BLUNT - 
 
-
+#Tuya, Gojiko, Rue, Olivier, Katrina, Rowenda, Nintamo, Kiri, Runar, Kiba, Xathan, Bannister, Rhiki, Ambelina
 npc_names = ["Castillo", "Fatima", "Deidranna", "Maya", "Enroth", "Jade", "Rondo", "Phaidon", "Xaphura", "Sigmar", "Nagash", "Orok", "Caradura", "Meanne", "Bolas", "Seymour", "Karn", "Chalm", "Tartan", "Goyd", "Strolk", "Baal","Gamon", "Nataranja", "Khaine", "Shrike", "Commissar","Slaanesh", "Lizer", "Kensai", "Tanya", "Reesus", "Kane", "Erika", "Gonk", "Gomesh", "Charly", "Tichon", "Quinn", "Lei", "Fitz", "Virginia", "Olgrim", "Yung", "Menphala", "Strife", "Tevorian", "Quellis", "Dagon", "Alp", "Salvo Kar", "Gupa", "Adraan", "Aelric", "Krigi", "Ophelia", "Flynn", "Therani", "Velvet", "Senrae", "Luka", "Brico"]
 
 planet_names = ["Septerra", "Alpharius", "Primaris", "Archaon", "Caledor", "Coda", "Hereticus", "Fatalis", "Anbennar", "Nobilis", "Polaris", "Earth", "Ishtar", "Data", "Leviathan", "Aldanis", "Scylla", "Volytis", "Destiny", "Dei", "Goerica", "Sumeria", "Mako", "Numera"]
